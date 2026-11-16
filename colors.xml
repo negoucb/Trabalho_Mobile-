@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_bg">#0B0F2A</color>
+    <color name="space_panel">#151B45</color>
+    <color name="space_accent">#4FC3F7</color>
+    <color name="space_text">#FFFFFF</color>
+    <color name="space_text_dim">#B0B8E0</color>
+</resources>

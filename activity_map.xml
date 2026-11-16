@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/space_bg"
+    android:orientation="vertical">
+
+    <org.maplibre.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/space_panel"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMissionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha uma missão"
+            android:textColor="@color/space_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMissionDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Toque em um marcador no mapa."
+            android:textColor="@color/space_text_dim"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnStartMission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/space_accent"
+            android:enabled="false"
+            android:text="Jogar missão"
+            android:textColor="@color/space_bg" />
+    </LinearLayout>
+</LinearLayout>
